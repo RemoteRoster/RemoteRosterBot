@@ -1,12 +1,13 @@
-
 {
   "name": "remote-roster-bot",
   "version": "1.0.0",
+  "description": "Remote Roster Administrative Support Telegram Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "node-telegram-bot-api": "^0.61.0"
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.64.0"
   }
 }
